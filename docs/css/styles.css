@@ -1,0 +1,61 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+  color: #73888C;
+  font-weight: bold;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.brand,
+a {
+  color: #1AC2E6;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: black;
+}
+
+main img {
+  float: right;
+  max-width: 400px;
+  padding-left: 140px;
+  padding-bottom: 100px;
+}
+
+@media (max-width:860px) {
+  main img {
+    display: none;
+  }
+}
+
+footer {
+  padding: 20px;
+  background-color: #dee4e5;
+}
+
+footer,
+#copyright {
+  float: left;
+  max-width: 1200px;
+  font-size: 0.6em;
+  line-height: 1.1em;
+  font-weight: normal;
+  color: grey
+}
+
+#copyright {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
